@@ -1,0 +1,10 @@
+{
+  "name": "waypoint_agent",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "express": "^5.2.1",
+    "mongodb": "^7.3.0"
+  }
+}

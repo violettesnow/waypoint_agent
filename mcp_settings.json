@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "mongodb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-mongodb",
+        "mongodb+srv://aivibelab:P1ne%40pple@waypoint.n6dky2y.mongodb.net/waypoint_db?retryWrites=true&w=majority&appName=WayPoint"
+      ]
+    },
+    "elasticsearch": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-elasticsearch",
+        "--url",
+        "https://my-elasticsearch-project-c0bd07.es.us-central1.gcp.elastic.cloud:443",
+        "--apiKey",
+        "YVh6dnI1NEJVU2NzSzkybGg1Sl86b3JWR2NkN29HcmJNakhfUnpsYWNwZw=="
+      ]
+    }
+  }
+}
