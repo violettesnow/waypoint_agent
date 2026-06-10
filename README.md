@@ -1,3 +1,9 @@
+You already have the core content in your `README.md`! However, to make sure it is polished and directly addresses the "demo" question you had, here is the final, perfect version.
+
+**Copy and paste this into your `README.md` file on GitHub to replace everything currently there:**
+
+---
+
 # WayPoint Intelligence
 
 WayPoint is an intelligent urban wildlife monitoring platform designed to transform passive citizen sightings into actionable, real-time infrastructure data. By utilizing agentic workflows, WayPoint bridges the gap between community reports and city planning.
@@ -13,13 +19,14 @@ WayPoint is an intelligent urban wildlife monitoring platform designed to transf
 
 * **Runtime:** Node.js, Express.js
 * **AI/LLM:** Google Gemini 2.5 Flash
-* **Databases:** * [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (Geospatial storage)
+* **Databases:**
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (Geospatial storage)
 * [Elasticsearch](https://www.elastic.co/) (Semantic search and pattern analysis)
 
 
 * **Agent Infrastructure:** Model Context Protocol (MCP)
 
-## 📋 How to Run
+## 📋 How to Run & Demo
 
 1. **Clone the repository:**
 ```bash
@@ -45,6 +52,8 @@ node ingest.js
 
 
 
+*Note: To demo the project, verify that your environment variables are set. The agent will initialize and process sample reports using the connected MCP servers.*
+
 ## 📐 Spatial Analysis
 
 WayPoint calculates the impact of wildlife disruptions using the following corridor risk metric:
@@ -52,3 +61,5 @@ WayPoint calculates the impact of wildlife disruptions using the following corri
 $$\text{Corridor Risk Index} = \frac{\sum \text{Report Incidents}}{\text{Total Segment Area}}$$
 
 ---
+
+**After you paste this, click the green "Commit changes..." button on GitHub.** You are now 100% ready to submit your project on Devpost!
